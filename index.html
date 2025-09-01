@@ -3,54 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Treino</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- ================== CABEÇALHO ================== -->
     <header>
-        <a href=""><h1>Título</h1></a>
+        <a href="">
+            <h1>Título</h1>
+        </a>
+
         <ul>
             <li><a href="">Página1</a></li>
             <li><a href="">Página2</a></li>
             <li><a href="">Página3</a></li>
             <li><a href="">Página4</a></li>
         </ul>
+
         <a href="">
             <button>
                 <span>ENTRAR</span>
             </button>
         </a>
     </header>
-<main>
-    <div class="main-container">
-        <div class="form-esquerda">
-            <section class="outro-form">
-                <h2>Subtítulo 1</h2>
-                <form>
-                <input type="text" placeholder="Pesquisar">
-                <button type="submit">PESQUISAR</button>
-                </form>
-            </section>
 
-            <section class="encontrar-carro">
-                <h2>Subtítulo 2</h2>
-                <form>
-                <input type="text" placeholder="Marca">
-                <input type="text" placeholder="Modelo">
-                <input type="text" placeholder="Estado">
-                <input type="text" placeholder="Cidade">
-                <input type="text" placeholder="Valor Médio">
-                <button type="submit">ENCONTRAR</button>
-                </form>
-            </section> 
-        </div>
-        
-        <div class="conteudo-direita">
-            <h2>Conteúdo à Direita</h2>
-            <p>Esta é a área de conteúdo à direita dos formulários. Você pode adicionar qualquer conteúdo aqui.</p>
-        </div>
-    </div>
-</main>
+    <!-- ================== CONTEÚDO PRINCIPAL ================== -->
+    <main>
+        <div class="main-container">
+            
+            <!-- Lado esquerdo -->
+            <div class="div-esquerda">
+                <section class="pesquisar-carro">
+                    <h2>Subtítulo 1</h2>
+                    <form>
+                        <input type="text" placeholder="Pesquisar">
+                        <button type="submit">PESQUISAR</button>
+                    </form>
+                </section>
+            </div>
 
+            <!-- Lado direito -->
+            <div class="div-direita">
+                <section class="encontrar-carro">
+                    <h2>Subtítulo 2</h2>
+                    <form>
+                        <input type="text" placeholder="Marca">
+                        <input type="text" placeholder="Modelo">
+                        <input type="text" placeholder="Estado">
+                        <input type="text" placeholder="Cidade">
+                        <input type="text" placeholder="Valor Médio">
+                        <button type="submit">ENCONTRAR</button>
+                    </form>
+                </section> 
+            </div>
+
+        </div>
+    </main>
 </body>
 </html>
